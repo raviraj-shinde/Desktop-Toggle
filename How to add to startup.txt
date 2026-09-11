@@ -1,0 +1,4 @@
+1. Press:        win + R 
+2. Paste:       shell:startup
+3. Paste DesktopToggle.exe shortcut here
+4. Done
