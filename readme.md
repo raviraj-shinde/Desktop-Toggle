@@ -1,4 +1,4 @@
-# Desktop Toggle App
+# 1. `Desktop Toggle App`
 
 - Aim: Toggle between Desktop 1 and Desktop 2 using the same button
 
@@ -6,7 +6,7 @@
 
 ---
 
-### `Write a small C++ application that:`
+### Algorithm: `Write a small C++ application that:`
 
 ```text
 
@@ -23,19 +23,46 @@
 
 ---
 
-# To create .exe open terminal and 
-```text
-g++ main.cpp -o DesktopToggle.exe -mwindows
-```
+# Current Hotkey
+
+> Win + Shift + `
 
 
 <br/>
 
 ---
----
+
+# How to use exec
+1. Click on the exe
+2. Done. Now try ``` Win + Shift + ` ```shortcut for desktop toggle.
+
+
+<br/>
+<br/>
+
 ---
 
-### Other
+# 2. `If you want to customize Hotkey: follow this steps`
+
+> The hotkey is defined in main.cpp:
+```
+RegisterHotKey(nullptr, 1, MOD_NOREPEAT | MOD_WIN | MOD_SHIFT, VK_OEM_3);
+```
+> Add your `shortcut/hotkey` using AI here.
+
+<br/>
+
+# To create .exe > open terminal 
+```text
+g++ main.cpp -o DesktopToggle.exe -mwindows
+```
+
+<br/>
+
+---
+
+
+### First Install libraries to create .exe
 
 | Command / Step                                | Purpose                                                                                                                                                                              |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
